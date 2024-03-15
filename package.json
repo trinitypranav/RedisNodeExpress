@@ -1,0 +1,35 @@
+{
+  "name": "redisnodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinitypranav/RedisNodeExpress.git"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "middleware",
+    "express",
+    "caching",
+    "datastore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trinitypranav/RedisNodeExpress/issues"
+  },
+  "homepage": "https://github.com/trinitypranav/RedisNodeExpress#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "node-fetch": "^2.6.1",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
